@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03c9c5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#4083ff</color>
+    <!-- 自定义颜色 -->
+    <color name="white">#ffffff</color>
+    <color name="black">#c52a2929</color>
+    <color name="activity_bg">#acf2f6f3</color>
+
+    <!-- 一般界面背景颜色 -->
+    <color name="general_acy_bg">#f2faf6</color>
+
+    <!-- 浅绿色按钮 -->
+    <color name="green_btn_press">#047674</color>
+    <color name="green_btn_normal">#03c9c5</color>
+    <!-- 黑色文字 -->
+    <color name="text_color">#d4292222</color>
+    <!-- 护理等级 一级-->
+    <color name="care_level_1">#f8415ef1</color>
+    <!-- 护理等级 二级-->
+    <color name="care_level_2">#f813aa40</color>
+    <!-- 护理等级 三级-->
+    <color name="care_level_3">#f8eef531</color>
+    <!-- 护理等级 特级-->
+    <color name="care_level_4">#f8e3221b</color>
+    <!-- 护理等级 无护理等级-->
+    <color name="care_level_5">#f88b918b</color>
+</resources>

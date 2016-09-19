@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.LoadPage" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/lay_loading_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.LoginPage" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/lay_login_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Page" parent="AppTheme">
+        <item name="android:windowBackground">@color/general_acy_bg</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

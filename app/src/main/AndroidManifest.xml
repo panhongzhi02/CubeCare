@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taiji.cc" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name="com.morgoo.droidplugin.PluginApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <!--加载界面-->
+        <activity android:name=".activity.LoadingActivity"
+            android:theme="@style/Theme.LoadPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--登陆界面-->
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/Theme.LoginPage">
+        </activity>
+        <!--主界面-->
+        <activity android:name=".activity.HomeActivity"
+            android:theme="@style/Theme.Page">
+        </activity>
+        <!--无法连接修改服务地址界面-->
+        <activity android:name=".activity.ConnotLoginActivity"
+            android:theme="@style/Theme.Page">
+
+        </activity>
+        <!--患者详细信息界面-->
+        <activity android:name=".activity.PatientInfoActivity"
+            android:theme="@style/Theme.Page">
+
+        </activity>
+
+        <receiver android:name=".scan.receiver.ScanReceive">
+            <intent-filter>
+                <action android:name="com.hrhy.mc.util.scancode"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

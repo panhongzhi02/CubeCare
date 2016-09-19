@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">移动护理3.0</string>
+    <!-- UI文字 -->
+    <string name="username_hint">请输入工号</string>
+    <string name="password_hint">请输入密码</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>

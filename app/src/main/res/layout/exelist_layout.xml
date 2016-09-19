@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7d8b99"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lay_executelistview_transfuse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_executelistview_transfuse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_transfusion_normal"/>
+            
+            <TextView
+                android:id="@+id/tv_executelistview_transfuse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="输液"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lay_executelistview_drug"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_executelistview_drug"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_drug_normal"/>
+
+            <TextView
+                android:id="@+id/tv_executelistview_drug"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="口服"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lay_executelistview_cure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_executelistview_cure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_cure_normal"/>
+
+            <TextView
+                android:id="@+id/tv_executelistview_cure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="治疗"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lay_executelistview_injection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_executelistview_injection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_injection_normal"/>
+
+            <TextView
+                android:id="@+id/tv_executelistview_injection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="其他"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
